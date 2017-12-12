@@ -1,0 +1,30 @@
+[package]
+name = "rust-samples"
+version = "0.1.0"
+authors = ["wakuwaku <street.change.97@gmail.com>"]
+
+[dependencies]
+
+[[bin]]
+name = "mrf"
+path = "src/make_rust_file.rs"
+
+[[bin]]
+name = "sample_input"
+path = "src/sample_input.rs"
+
+[[bin]]
+name = "sample_fizzbuzz"
+path = "src/sample_fizzbuzz.rs"
+
+[[bin]]
+name = "sample_square_sum"
+path = "src/sample_square_sum.rs"
+
+[[bin]]
+name = "sample_let"
+path = "src/sample_let.rs"
+
+[[bin]]
+name = "sample_create_file"
+path = "src/sample_create_file.rs"
